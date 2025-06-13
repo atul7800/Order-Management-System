@@ -1,0 +1,89 @@
+{
+    "skus": [
+        {
+            "id": 1,
+            "name": "Wireless Mouse",
+            "code": "WM001",
+            "price": 599,
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Mechanical Keyboard",
+            "code": "MK002",
+            "price": 1599,
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "USB-C Cable",
+            "code": "UC003",
+            "price": 299,
+            "active": true
+        }
+    ],
+    "orders": [
+        {
+            "id": 101,
+            "name": "Atul Gupta",
+            "email": "atul@example.com",
+            "phone": "9876543210",
+            "address": "Street 1",
+            "city": "Delhi",
+            "country": "India",
+            "items": [
+                {
+                    "skuId": 1,
+                    "qty": 2
+                },
+                {
+                    "skuId": 3,
+                    "qty": 1
+                }
+            ],
+            "total": 1497,
+            "status": "New",
+            "createdAt": "2024-06-13T10:00:00Z"
+        },
+        {
+            "id": 102,
+            "name": "Riya Sharma",
+            "email": "riya@example.com",
+            "phone": "9123456789",
+            "address": "Lane 5",
+            "city": "Mumbai",
+            "country": "India",
+            "items": [
+                {
+                    "skuId": 2,
+                    "qty": 1
+                }
+            ],
+            "total": 1599,
+            "status": "Delivered",
+            "createdAt": "2024-06-12T09:30:00Z"
+        },
+        {
+            "id": 103,
+            "name": "Karan Mehta",
+            "email": "karan@example.com",
+            "phone": "9988776655",
+            "address": "Park Ave",
+            "city": "Bangalore",
+            "country": "India",
+            "items": [
+                {
+                    "skuId": 1,
+                    "qty": 1
+                },
+                {
+                    "skuId": 2,
+                    "qty": 1
+                }
+            ],
+            "total": 2198,
+            "status": "Cancelled",
+            "createdAt": "2024-06-11T14:45:00Z"
+        }
+    ]
+}
